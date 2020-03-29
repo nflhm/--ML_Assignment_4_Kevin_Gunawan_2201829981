@@ -21,12 +21,12 @@ nd['reviews_per_month'].fillna(0, inplace = True)
 # In[107]:
 
 
-distNd = nd[["price", "minimum_nights", "number_of_reviews", "calculated_host_listings_count", "availability_365", 
-             "latitude", "longitude", "reviews_per_month"]]
-distNd.hist()
-plt.subplots_adjust(hspace = 0.8, wspace = 0.8)
-plt.rcParams["figure.figsize"] = [16,9]
-plt.show()
+# distNd = nd[["price", "minimum_nights", "number_of_reviews", "calculated_host_listings_count", "availability_365", 
+#              "latitude", "longitude", "reviews_per_month"]]
+# distNd.hist()
+# plt.subplots_adjust(hspace = 0.8, wspace = 0.8)
+# plt.rcParams["figure.figsize"] = [16,9]
+# plt.show()
 
 
 # In[114]:
